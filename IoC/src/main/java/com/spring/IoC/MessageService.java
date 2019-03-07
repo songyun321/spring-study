@@ -1,4 +1,4 @@
-package com.spring.quickstart;
+package com.spring.IoC;
 
 public interface MessageService {
     String getMessage();

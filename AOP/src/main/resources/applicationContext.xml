@@ -1,0 +1,11 @@
+<!--配置一个hello的bean-->
+<bean id ="hello" class="com.spring.App.HelloImpl"/>
+<!--配置一个mybeforeadvice前置增强的bean-->
+<bean id="myBeforeAderice" class="com.spring.AOP.MyBeforeAdvice"/>
+<!--配置aop-->
+<aop:config>
+   <aop:aspect id="before" ref="myBeforeAdvice">
+       <aop:point id="myPointCut" expresstion="(* com.spring.AOP.*.*())"/>
+       <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
+   </aop:aspect>
+<aop:

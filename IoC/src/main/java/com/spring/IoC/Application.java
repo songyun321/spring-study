@@ -1,7 +1,4 @@
-package com.spring.quickstart;
-
-import com.sun.org.apache.xml.internal.serialize.Printer;
-import com.sun.source.tree.NewClassTree;
+package com.spring.IoC;
 
 public class Application {
     public static void main(String[] args){
