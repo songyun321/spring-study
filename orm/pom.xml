@@ -7,6 +7,18 @@
     <groupId>orm</groupId>
     <artifactId>orm</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <mysql.version>5.1.47</mysql.version>
+    <mybatis.version>5.1.47</mybatis.version>
+    <dependency>
+        <groupId></groupId>
+    </dependency>
+    <!--spring-jdbc依赖-->
+    <!--mybaties依赖-->
+    <dependency></dependency>
+    <!--druid连接池依赖-->
+    <dependency>
 
-
+    </dependency>
+    <!--lombok依赖-->
+    <depend
 </project>
